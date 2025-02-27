@@ -25,8 +25,8 @@ usernameInput = driver.find_element(By.ID,"login_ac")
 passwordInput = driver.find_element(By.ID,"login_pw")
 
 # 自動輸入帳號密碼
-usernameInput.send_keys("0966650857")
-passwordInput.send_keys("ky03110311")
+usernameInput.send_keys("09---------")
+passwordInput.send_keys("-----------")
 
 # 按下登入按鈕
 signinBth = driver.find_element(By.ID,"login_btn")
